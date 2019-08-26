@@ -8,7 +8,7 @@
 
 ### 准备工作
 
-- [安装与环境部署](./1_Preparations/1_Preparations.md)
+- [安装与环境部署](./1_Preparations/1-1_Installation.md)
 
 
 ---
