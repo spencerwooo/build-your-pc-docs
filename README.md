@@ -10,10 +10,11 @@
 
 - [安装与环境部署](./1_Preparations/1-1_Installation.md)
 
+## 🎞 参考资料与推荐阅读
 
 ---
 
-**🗃 Build Your PC** ©2019 Spencer Woo. Released under the CC BY-SA 4.0 International License.
+**🗃 Build Your PC** ©2019 Spencer Woo. Released under the [CC BY-SA 4.0 International License](./LICENSE).
 
 Authored and maintained by Spencer Woo.
 
