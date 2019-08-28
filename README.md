@@ -31,6 +31,8 @@
 
 ### 个人项目 - 单周期 CPU
 
+- [单周期 CPU 的设计思路](./2_SingleCycle/2-1_Design.md)
+
 ... [WIP]
 
 ### 团队项目 - 多周期 CPU / 流水线 CPU
