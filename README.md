@@ -31,7 +31,8 @@
 
 ### 个人项目 - 单周期 CPU
 
-- [单周期 CPU 的设计思路](./2_SingleCycle/2-1_Design.md)
+- [单周期 CPU 的基础知识](./2_SingleCycle/2-1_Basic.md)
+- [单周期 CPU 的设计思路](./2_SingleCycle/2-2_Design.md)
 
 ... [WIP]
 
