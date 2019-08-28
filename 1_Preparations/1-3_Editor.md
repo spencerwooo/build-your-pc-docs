@@ -1,5 +1,11 @@
 # 使用 VS Code 作为 Vivado 的默认代码编辑器
 
+- [使用 VS Code 作为 Vivado 的默认代码编辑器](#%e4%bd%bf%e7%94%a8-vs-code-%e4%bd%9c%e4%b8%ba-vivado-%e7%9a%84%e9%bb%98%e8%ae%a4%e4%bb%a3%e7%a0%81%e7%bc%96%e8%be%91%e5%99%a8)
+  - [更换默认代码编辑器](#%e6%9b%b4%e6%8d%a2%e9%bb%98%e8%ae%a4%e4%bb%a3%e7%a0%81%e7%bc%96%e8%be%91%e5%99%a8)
+  - [配置 VS Code 的 Verilog 编写环境](#%e9%85%8d%e7%bd%ae-vs-code-%e7%9a%84-verilog-%e7%bc%96%e5%86%99%e7%8e%af%e5%a2%83)
+    - [Verilog 语言支持插件](#verilog-%e8%af%ad%e8%a8%80%e6%94%af%e6%8c%81%e6%8f%92%e4%bb%b6)
+    - [Verilog 代码自动格式化插件](#verilog-%e4%bb%a3%e7%a0%81%e8%87%aa%e5%8a%a8%e6%a0%bc%e5%bc%8f%e5%8c%96%e6%8f%92%e4%bb%b6)
+
 ![](https://i.loli.net/2019/08/27/l7Ntgd6sGWb9XVL.png)
 
 由于 Vivado 默认的代码编辑器实在不好用，因此我们可以使用 VS Code 进行 Verilog 的代码编写，并利用 Vivado 进行项目管理、综合、仿真与调试等。
