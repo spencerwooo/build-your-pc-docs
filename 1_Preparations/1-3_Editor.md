@@ -84,4 +84,4 @@ scoop install ctags
 
 ---
 
-[👈 Previous](./1-2_Vivado.md) | [👉 Next](../2_SingleCycle/2-1_Design.md) | [🚩 Home](../README.md)
+[👈 Previous](./1-2_Vivado.md) | [👉 Next](../2_SingleCycle/2-1_Basic.md) | [🚩 Home](../README.md)
