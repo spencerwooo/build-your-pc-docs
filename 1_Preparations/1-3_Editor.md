@@ -81,3 +81,7 @@ scoop install ctags
 ![](https://i.loli.net/2019/08/27/N4WLjS6DUpJwG3d.png)
 
 使用 VS Code 来编写 Verilog 的体验极佳，推荐大家都进行如上的配置。
+
+---
+
+[👈 Previous](./1-2_Vivado.md) | [👉 Next](../2_SingleCycle/2-1_Design.md) | [🚩 Home](../README.md)
