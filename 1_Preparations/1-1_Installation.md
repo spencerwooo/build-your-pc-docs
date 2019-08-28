@@ -35,3 +35,5 @@ Vivado 受到出口管制的限制，「官网安装途径」需要首先在官�
 精工开发板（数字逻辑课程使用过）：
 
 ![](https://i.loli.net/2019/08/27/VgFOB3XDAS6uoet.jpg)
+
+[Next →](./1_Preparations/1-2_Vivado.md) | [Home](./README.md)
