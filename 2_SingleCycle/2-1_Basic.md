@@ -81,6 +81,7 @@ CPU 本质上就是一个数字逻辑电路，所以我们设计 CPU 的时候�
 - 寄存器堆（Register File）
 - 指令寄存器（Instruction Register）
 - 程序计数器（Program Counter）
+- 控制单元（Control Unit）
 
 ---
 
