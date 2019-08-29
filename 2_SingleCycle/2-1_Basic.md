@@ -7,7 +7,7 @@
     - [由 ALU 负责的指令](#%e7%94%b1-alu-%e8%b4%9f%e8%b4%a3%e7%9a%84%e6%8c%87%e4%bb%a4)
     - [访存指令](#%e8%ae%bf%e5%ad%98%e6%8c%87%e4%bb%a4)
     - [转移指令（无条件或条件跳转）](#%e8%bd%ac%e7%a7%bb%e6%8c%87%e4%bb%a4%e6%97%a0%e6%9d%a1%e4%bb%b6%e6%88%96%e6%9d%a1%e4%bb%b6%e8%b7%b3%e8%bd%ac)
-  - [主要的数据通路](#%e4%b8%bb%e8%a6%81%e7%9a%84%e6%95%b0%e6%8d%ae%e9%80%9a%e8%b7%af)
+  - [数据通路中的必要元素](#%e6%95%b0%e6%8d%ae%e9%80%9a%e8%b7%af%e4%b8%ad%e7%9a%84%e5%bf%85%e8%a6%81%e5%85%83%e7%b4%a0)
 
 CPU 本质上就是一个数字逻辑电路，所以我们设计 CPU 的时候实际上就是在设计电路。我们在使用 Verilog 的时候，实际上是在利用 Verilog 硬件描述语言来设计 CPU 的逻辑电路结构。因此，我们需要：
 
@@ -65,13 +65,13 @@ CPU 本质上就是一个数字逻辑电路，所以我们设计 CPU 的时候�
 
 ![](https://i.loli.net/2019/08/28/GeOrovA2lWX6jPB.png)
 
-## 主要的数据通路
+## 数据通路中的必要元素
 
-- 指令存储器
-- 数据存储器
-- 寄存器堆
-- 指令寄存器（IR）
-- 程序计数器（PC）
+- 指令存储器（Instruction Memory）
+- 数据存储器（Data Memory）
+- 寄存器堆（Register File）
+- 指令寄存器（Instruction Register）
+- 程序计数器（Program Counter）
 
 ---
 
