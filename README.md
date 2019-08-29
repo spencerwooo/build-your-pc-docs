@@ -1,6 +1,6 @@
 <img src="https://avatars2.githubusercontent.com/u/54571645?s=200&v=4" align="right" width="120px">
 
-# 🗃 Build Your PC
+# 🚡 Build Your PC
 
 **辛苦三星期，造台计算机！**
 
@@ -21,7 +21,7 @@
   - 根据精工板资源，按组完成计算机外设接口设计，如 VGA 控制器、LCD、UART、蓝牙等，测试并形成 IP 核
   - 应用 ② 中产生的 IP 核到自行设计的计算机系统中，在精工板上实现。
 
-## 🍽 文档目录
+## 📑 文档目录
 
 ### 准备工作
 
@@ -40,7 +40,7 @@
 
 ... [WIP]
 
-## 🎞 参考资料与推荐阅读
+## 🎁 参考资料与推荐阅读
 
 - [University of Washington - Course CSE378](https://courses.cs.washington.edu/courses/cse378/09wi/lectures.html)
   - [A single-cycle MIPS processor](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec07.pdf)
@@ -48,7 +48,7 @@
 
 ---
 
-**🗃 Build Your PC** ©2019 Spencer Woo. Released under the [CC BY-SA 4.0 International License](./LICENSE).
+**🚡 Build Your PC** ©2019 Spencer Woo. Released under the [CC BY-SA 4.0 International License](./LICENSE).
 
 Authored and maintained by Spencer Woo.
 
