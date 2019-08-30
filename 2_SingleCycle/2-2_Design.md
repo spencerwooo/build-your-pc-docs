@@ -16,7 +16,7 @@
 
 具体数据通路图大致如下：
 
-![](https://i.loli.net/2019/08/29/s24EZKockQdx3tJ.png)
+![](https://i.loli.net/2019/08/30/h7YVOoGpwKNb5WX.png)
 
 其中，主要的逻辑控制信号 Control Signals（蓝色）有：
 
