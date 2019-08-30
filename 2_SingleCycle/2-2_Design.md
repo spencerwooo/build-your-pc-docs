@@ -16,7 +16,7 @@
 
 具体数据通路图大致如下：
 
-![](https://i.loli.net/2019/08/30/h7YVOoGpwKNb5WX.png)
+![](https://i.loli.net/2019/08/30/xHW3l86rNbYpVd5.png)
 
 其中，主要的逻辑控制信号 Control Signals（蓝色）有：
 
@@ -25,7 +25,7 @@
 - `MemRead`：写数据存储器使能信号
 - `ALUOp`：ALU 控制信号（区分算术指令，比如 `ADD`、`SUB` 等）
 - `MemToReg`：选择将 ALU 计算结果（0）或数据存储器输出（1）存入寄存器
-- `RegDst`：目标寄存器 rt、rd 二选一（由于 `LW` 指令目标寄存器是 rt 而不是 rd）
+- `RegDst`：目标寄存器 rt（0）、rd（1）二选一（由于 `LW` 指令目标寄存器是 rt 而不是 rd）
 - `ALUSrc`：ALU 源操作数二选一 - 来自寄存器（0）或**符号扩展**的立即数（1）（区分算术指令结果与 `LW`、`SW` 指令结果）
 - `PCSrc`：根据 `BEQ` 结果进行跳转，相等（0）则不跳转继续执行，不等（1）则跳转
 
