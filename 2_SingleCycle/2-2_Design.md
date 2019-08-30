@@ -17,7 +17,7 @@
 
 具体数据通路图大致如下：
 
-![](https://i.loli.net/2019/08/30/eUpyxztgof1lIQ6.png)
+![](https://i.loli.net/2019/08/30/bLf76qEozHngTjK.png)
 
 其中，主要的逻辑控制信号 Control Signals（蓝色）有：
 
@@ -30,7 +30,7 @@
 | `MemToReg` |              选择将 ALU 计算结果（00）、数据存储器输出（01）或 LUI 指令结果（10）存入寄存器               |
 |  `RegDst`  |               目标寄存器 rt（0）、rd（1）二选一（由于 `LW` 指令目标寄存器是 rt 而不是 rd）                |
 |  `ALUSrc`  | ALU 源操作数二选一 - 来自寄存器（0）或**符号扩展**的立即数（1）（区分算术指令结果与 `LW`、`SW` 指令结果） |
-|  `PCSrc`   |                   根据 `Zero` 结果进行跳转，相等（0）则不跳转继续执行，不等（1）则跳转                    |
+|  `PCSrc`   |  `BEQ` 根据 `Zero` 结果进行跳转，相等（00）则不跳转继续执行，不等（10）则跳转；若位 `J` 则直接跳转（01）  |
 
 由于需要：
 
@@ -40,7 +40,7 @@
 
 ## 主要控制逻辑的真值表
 
-![](https://i.loli.net/2019/08/30/wm7BH5inaYZAKqN.png)
+![](https://i.loli.net/2019/08/30/7ZT3EGtizg9FmWJ.png)
 
 其中，对于算术指令我们只需要实现加法和减法，`ALUOp` 功能表如下：
 
