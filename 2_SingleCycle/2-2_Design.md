@@ -17,7 +17,7 @@
 
 具体数据通路图大致如下：
 
-![](https://i.loli.net/2019/08/30/bLf76qEozHngTjK.png)
+![](https://i.loli.net/2019/09/01/yac4B6bqeUx5kRM.png)
 
 其中，主要的逻辑控制信号 Control Signals（蓝色）有：
 
@@ -53,4 +53,4 @@
 
 ---
 
-[👈 Previous](./2-1_Basic.md) | [👉 Next](./2-2_Design) | [🚩 Home](../README.md)
+[👈 Previous](./2-1_Basic.md) | [👉 Next](./2-3_Verilog.md) | [🚩 Home](../README.md)
