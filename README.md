@@ -23,18 +23,20 @@
 
 ## 📑 文档目录
 
+如果没有意外，那么你的设计流程应该和以下过程一致。
+
 ### 准备工作
 
 - [安装与环境部署](./1_Preparations/1-1_Installation.md)
 - [利用 Vivado 创建项目](./1_Preparations/1-2_Vivado.md)
 - [使用 VS Code 作为 Vivado 的默认代码编辑器](./1_Preparations/1-3_Editor.md)
 
-### 个人项目 - 单周期 CPU
+### 个人项目 - 单周期 CPU [WIP]
 
 - [单周期 CPU 的基础知识](./2_SingleCycle/2-1_Basic.md)
 - [单周期 CPU 的设计思路](./2_SingleCycle/2-2_Design.md)
-
-... [WIP]
+- [单周期 CPU 的具体代码实现](./2_SingleCycle/2-3_Verilog.md)
+- [单周期 CPU 的行为仿真](./2_SingleCycle/2-4_Testbench.md)
 
 ### 团队项目 - 多周期 CPU / 流水线 CPU
 
@@ -45,6 +47,7 @@
 - [University of Washington - Course CSE378](https://courses.cs.washington.edu/courses/cse378/09wi/lectures.html)
   - [A single-cycle MIPS processor](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec07.pdf)
   - [Pipelined datapath and control](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec10.pdf)
+- [针对参加龙芯杯的若干建议 - Silverster98/bit_nscscc_suggestion](https://github.com/Silverster98/bit_nscscc_suggestion)
 
 ---
 
