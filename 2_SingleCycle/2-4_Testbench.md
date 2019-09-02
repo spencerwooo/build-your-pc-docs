@@ -8,23 +8,103 @@ Testbench 是一种验证的手段，可以看做模拟实际环境的输入激�
 
 ## 添加仿真激励文件
 
-在 Vivado 文件树窗口上，点击 Add Sources，并选择 Add or create simulation sources.
+在 Vivado 文件树窗口上，点击 Add Sources，并选择 Add or create simulation sources：
+
+![](https://i.loli.net/2019/09/02/gRXoulDAbhJpsfU.png)
 
 点击 Create File 并设置文件名为 testbench，接下来一直选择下一步直到创建完成。
 
-在文件树上，我们在 Simulation Sources 下可以找到我们刚刚创建的仿真激励文件 `testbench.v`.
+![](https://i.loli.net/2019/09/02/rxG2Kq3lCiR9Zpn.png)
 
-接下来，我们进行仿真激励文件的代码撰写。这里我们仍然使用 Verilog 语言。
+在文件树上，我们在 Simulation Sources 下可以找到我们刚刚创建的仿真激励文件 `testbench.v`：
+
+![](https://i.loli.net/2019/09/02/ThW6dMqiC5sH9Aw.png)
+
+接下来，我们进行仿真激励文件的代码撰写。这里我们仍然使用 Verilog 语言，下面是一个示范。
+
+```verilog
+`timescale 1ns / 1ps
+
+/*
+ * Testbench
+ */
+
+module testbench();
+reg clk;
+reg rst;
+top ZAN_TOP(clk, rst);
+
+initial begin
+    // Load instructions
+    $readmemh("../../../single-cycle-cpu.tbcode/instructions.txt", ZAN_TOP.ZAN_INSTR_MEM.im);
+    // Load register initial values
+    $readmemh("../../../single-cycle-cpu.tbcode/register.txt", ZAN_TOP.ZAN_REG_FILE.gpr);
+    // Load memory data initial values
+    $readmemh("../../../single-cycle-cpu.tbcode/data_memory.txt", ZAN_TOP.ZAN_DATA_MEM.dm);
+
+    rst = 1;
+    clk = 0;
+
+    #30 rst = 0; // 30ns 时刻 CPU 开始运行
+    #500 $stop;  // 500ns 时刻 CPU 停止
+end
+
+always
+    #20 clk = ~clk; // 每隔 20ns 时钟信号 clk 翻转一次
+endmodule
+```
+
+与此同时，我们需要将指令存储器、GPR 寄存器以及数据存储器通过读入文件的方式进行初始化，也就是上方代码中三处 `$readmemh` 的工作。我们可以在另外一个文件夹下定义这三个文件，并在其中撰写指令、数据等。比如：
+
+1. 在 `instructions.txt` 中初始化指令存储器：
+
+```
+0x24010005
+0x24020005
+```
+
+上面操作是初始化为以下两条指令：
+
+```mips
+addiu $1, $0, 5
+addiu $2, $0, 5
+```
+
+2. 在 `register.txt` 中初始化 GPR 寄存器：
+
+```
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+```
+
+3. 在 `data_memory.txt` 中初始化数据寄存器：
+
+```
+0x00000001
+0x0000000f
+```
 
 ## 进行仿真测试
 
 我们选择左侧菜单的 Run Simulation，并选择 Run Behavioral Simulation 进行行为仿真。
 
-之后，单击上方工具栏 Run All 选项进行仿真。
-
-在运行一段时间之后，我们就可以点击 Cancel 停止仿真，或者我们也可以直接点击 Background 然后在波形窗口观察波形。
+![](https://i.loli.net/2019/09/02/V2sNr8Gk9hqdFjZ.png)
 
 在调整时间单位后可以观察到如下波形（点击放大镜增大或缩小时间单位，拖动黄色游标可以观察任意时刻信号的值）。
+
+![](https://i.loli.net/2019/09/02/PXg2tShNECkIoO4.png)
+
+同时在左侧，我们可以看到任意时间点的各个模块输入输出信号值，寄存器值、数据存储器值等等，从而进行我们 CPU 的调试工作。
 
 ---
 
