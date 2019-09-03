@@ -44,6 +44,7 @@
 
 ## 🎁 参考资料与推荐阅读
 
+- [How does a CPU work - Hackernoon](https://hackernoon.com/how-does-a-cpu-work-af3488d182a2)
 - [University of Washington - Course CSE378](https://courses.cs.washington.edu/courses/cse378/09wi/lectures.html)
   - [A single-cycle MIPS processor](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec07.pdf)
   - [Pipelined datapath and control](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec10.pdf)
