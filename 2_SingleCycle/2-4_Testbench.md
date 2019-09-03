@@ -1,4 +1,4 @@
-[👈 Previous](./2-3_Verilog.md) · [👉 Next](../README.md) · [🚩 Home](../README.md)
+[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-1_Basic.md) · [🚩 Home](../README.md)
 
 # 单周期 CPU 的行为仿真
 
@@ -110,4 +110,6 @@ endmodule
 
 由于个人项目的单周期 CPU 并不需要进行综合、实现以及烧入开发板，因此我们只需要在仿真之后确认我们的单周期 CPU 已经实现了全部指令与功能之后即可。
 
-[👈 Previous](./2-3_Verilog.md) · [👉 Next](../README.md) · [🚩 Home](../README.md)
+具体的测试项目集请参考：[spencerwooo/single-cycle-processor - README.md](https://github.com/spencerwooo/single-cycle-processor)
+
+[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-1_Basic.md) · [🚩 Home](../README.md)

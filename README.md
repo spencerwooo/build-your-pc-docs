@@ -40,9 +40,12 @@
 - [单周期 CPU 的具体代码实现](./2_SingleCycle/2-3_Verilog.md)
 - [单周期 CPU 的行为仿真](./2_SingleCycle/2-4_Testbench.md)
 
-### 团队项目 - 多周期 CPU / 流水线 CPU
+### 团队项目 - 多周期 CPU / 流水线 CPU [WIP]
 
-... [WIP]
+> 我们团队选择实现流水线 CPU，因此接下来的参考文档只介绍流水线 CPU 的设计流程。
+
+- [流水线 CPU 的基础知识](./3_Pipelining/3-1_Basic.md)
+- [流水线 CPU 的设计思路](./3_Pipelining/3-2_Design.md)
 
 ## 🎁 参考资料与推荐阅读
 
