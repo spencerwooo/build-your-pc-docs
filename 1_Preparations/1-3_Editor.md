@@ -1,3 +1,5 @@
+[👈 Previous](./1-2_Vivado.md) | [👉 Next](../2_SingleCycle/2-1_Basic.md) | [🚩 Home](../README.md)
+
 # 使用 VS Code 作为 Vivado 的默认代码编辑器
 
 - [使用 VS Code 作为 Vivado 的默认代码编辑器](#%e4%bd%bf%e7%94%a8-vs-code-%e4%bd%9c%e4%b8%ba-vivado-%e7%9a%84%e9%bb%98%e8%ae%a4%e4%bb%a3%e7%a0%81%e7%bc%96%e8%be%91%e5%99%a8)
@@ -81,7 +83,5 @@ scoop install ctags
 ![](https://i.loli.net/2019/08/27/N4WLjS6DUpJwG3d.png)
 
 使用 VS Code 来编写 Verilog 的体验极佳，推荐大家都进行如上的配置。
-
----
 
 [👈 Previous](./1-2_Vivado.md) | [👉 Next](../2_SingleCycle/2-1_Basic.md) | [🚩 Home](../README.md)

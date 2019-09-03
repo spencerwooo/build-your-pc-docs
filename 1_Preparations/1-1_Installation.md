@@ -1,3 +1,5 @@
+[👉 Next](./1-2_Vivado.md) | [🚩 Home](../README.md)
+
 # 安装与环境部署
 
 - [安装与环境部署](#%e5%ae%89%e8%a3%85%e4%b8%8e%e7%8e%af%e5%a2%83%e9%83%a8%e7%bd%b2)
@@ -35,7 +37,5 @@ Vivado 受到出口管制的限制，「官网安装途径」需要首先在官�
 精工开发板（数字逻辑课程使用过）：
 
 ![](https://i.loli.net/2019/08/27/VgFOB3XDAS6uoet.jpg)
-
----
 
 [👉 Next](./1-2_Vivado.md) | [🚩 Home](../README.md)

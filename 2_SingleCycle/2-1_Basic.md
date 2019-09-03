@@ -1,3 +1,5 @@
+[👈 Previous](../1_Preparations/1-3_Editor.md) | [👉 Next](./2-2_Design.md) | [🚩 Home](../README.md)
+
 # 单周期 CPU 的基础知识
 
 - [单周期 CPU 的基础知识](#%e5%8d%95%e5%91%a8%e6%9c%9f-cpu-%e7%9a%84%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86)
@@ -89,7 +91,5 @@ CPU 本质上就是一个数字逻辑电路，所以我们设计 CPU 的时候�
 ![1_FJxls8ZBHc3l3tTKxrO6Sg.png](https://i.loli.net/2019/09/03/kvNdwDGsaHOzebC.png)
 
 在流水线 CPU 中，为了将指令更有效地执行，我们会将 CPU 的取值、译码、执行的过程按照流水线的方式进行组织，从而提高 CPU 的执行、运算效率。在之后的实验中，我们会通过这种方式进行 CPU 指令的执行与实现。
-
----
 
 [👈 Previous](../1_Preparations/1-3_Editor.md) | [👉 Next](./2-2_Design.md) | [🚩 Home](../README.md)

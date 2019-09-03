@@ -1,3 +1,5 @@
+[👈 Previous](./1-1_Installation.md) | [👉 Next](./1-3_Editor.md) | [🚩 Home](../README.md)
+
 # 利用 Vivado 创建项目
 
 - [利用 Vivado 创建项目](#%e5%88%a9%e7%94%a8-vivado-%e5%88%9b%e5%bb%ba%e9%a1%b9%e7%9b%ae)
@@ -137,7 +139,5 @@ endmodule
 ![](https://i.loli.net/2019/08/28/3f6mLZspWq1GUQB.png)
 
 接下来，我们依次选择「Run Implementation」、「Generate Bitstream」，等等全部完成之后，选择「Open Hardware Manager」并将开发板连接至电脑。在「Hardware Manager」中，我们找到开发板的选项，右键选择「Program Device」即可将开发板烧制完成。
-
----
 
 [👈 Previous](./1-1_Installation.md) | [👉 Next](./1-3_Editor.md) | [🚩 Home](../README.md)

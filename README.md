@@ -1,5 +1,7 @@
 <img src="https://avatars2.githubusercontent.com/u/54571645?s=200&v=4" align="right" width="120px">
 
+[🎃 实验要求](#-实验要求2019-版) | [📑 文档目录](#-文档目录) | [🎁 参考资料](#-参考资料与推荐阅读)
+
 # 🚡 Build Your PC
 
 **辛苦三星期，造台计算机！**
