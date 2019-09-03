@@ -1,4 +1,4 @@
-[👈 Previous](./2-1_Basic.md) | [👉 Next](./2-3_Verilog.md) | [🚩 Home](../README.md)
+[👈 Previous](./2-1_Basic.md) · [👉 Next](./2-3_Verilog.md) · [🚩 Home](../README.md)
 
 # 单周期 CPU 的设计思路
 
@@ -85,4 +85,4 @@
 |     010      | J 型直接跳转 |    J     |
 |     011      |  BEQ 型跳转  |   BEQ    |
 
-[👈 Previous](./2-1_Basic.md) | [👉 Next](./2-3_Verilog.md) | [🚩 Home](../README.md)
+[👈 Previous](./2-1_Basic.md) · [👉 Next](./2-3_Verilog.md) · [🚩 Home](../README.md)

@@ -1,4 +1,4 @@
-[👈 Previous](./2-2_Design.md) | [👉 Next](./2-4_Testbench) | [🚩 Home](../README.md)
+[👈 Previous](./2-2_Design.md) · [👉 Next](./2-4_Testbench) · [🚩 Home](../README.md)
 
 # 单周期 CPU 的具体代码实现
 
@@ -151,4 +151,4 @@ data_memory ZAN_DATA_MEM(.clk(clk),
                          .read_mem_data(read_mem_data));
 ```
 
-[👈 Previous](./2-2_Design.md) | [👉 Next](./2-4_Testbench) | [🚩 Home](../README.md)
+[👈 Previous](./2-2_Design.md) · [👉 Next](./2-4_Testbench) · [🚩 Home](../README.md)
