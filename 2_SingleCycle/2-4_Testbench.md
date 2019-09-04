@@ -1,4 +1,4 @@
-[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-1_Basic.md) · [🚩 Home](../README.md)
+[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-0_Instructions.md) · [🚩 Home](../README.md)
 
 # 单周期 CPU 的行为仿真
 
@@ -112,4 +112,4 @@ endmodule
 
 具体的测试项目集请参考：[spencerwooo/single-cycle-processor - README.md](https://github.com/spencerwooo/single-cycle-processor)
 
-[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-1_Basic.md) · [🚩 Home](../README.md)
+[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-0_Instructions.md) · [🚩 Home](../README.md)

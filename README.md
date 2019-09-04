@@ -44,6 +44,7 @@
 
 > 我们团队选择实现流水线 CPU，因此接下来的参考文档只介绍流水线 CPU 的设计流程。
 
+- [流水线 CPU 准备实现的指令](./3_Pipelining/3-0_Instructions.md)
 - [流水线 CPU 的基础知识](./3_Pipelining/3-1_Basic.md)
 - [数据通路与数据控制](./3_Pipelining/3-2_Datapath&Control.md)
 - [Data Hazard 与避免措施](./3_Pipelining/3-3_DataHazards.md)
