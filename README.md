@@ -45,14 +45,21 @@
 > 我们团队选择实现流水线 CPU，因此接下来的参考文档只介绍流水线 CPU 的设计流程。
 
 - [流水线 CPU 的基础知识](./3_Pipelining/3-1_Basic.md)
-- [流水线 CPU 的设计思路](./3_Pipelining/3-2_Design.md)
+- [数据通路与数据控制](./3_Pipelining/3-2_Datapath&Control.md)
+- [Data Hazard 与避免措施](./3_Pipelining/3-3_DataHazards.md)
+- [分支预测 Branching](./3_Pipelining/3-4_Branching.md)
+- [流水线 CPU 的设计](./3_Pipelining/3-5_Design.md)
 
 ## 🎁 参考资料与推荐阅读
 
 - [How does a CPU work - Hackernoon](https://hackernoon.com/how-does-a-cpu-work-af3488d182a2)
 - [University of Washington - Course CSE378](https://courses.cs.washington.edu/courses/cse378/09wi/lectures.html)
   - [A single-cycle MIPS processor](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec07.pdf)
+  - [Intro to Pipelining](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec09.pdf)
   - [Pipelined datapath and control](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec10.pdf)
+  - [Pipelining and Data Hazards](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec11.pdf)
+  - [Hazards](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec12.pdf)
+  - [Branching, Performance](https://courses.cs.washington.edu/courses/cse378/09wi/lectures/lec13.pdf)
 - [针对参加龙芯杯的若干建议 - Silverster98/bit_nscscc_suggestion](https://github.com/Silverster98/bit_nscscc_suggestion)
 
 ---

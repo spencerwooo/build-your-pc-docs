@@ -1,4 +1,4 @@
-[👈 Previous](../2_SingleCycle/2-4_Testbench.md) · [👉 Next](./3-2_Design.md) · [🚩 Home](../README.md)
+[👈 Previous](../2_SingleCycle/2-4_Testbench.md) · [👉 Next](./3-2_Datapath&Control.md) · [🚩 Home](../README.md)
 
 # 流水线 CPU 的基础知识
 
@@ -71,4 +71,4 @@
 
 ![](https://i.loli.net/2019/09/03/kp1i4eIqw2VmWba.png)
 
-[👈 Previous](../2_SingleCycle/2-4_Testbench.md) · [👉 Next](./3-2_Design.md) · [🚩 Home](../README.md)
+[👈 Previous](../2_SingleCycle/2-4_Testbench.md) · [👉 Next](./3-2_Datapath&Control.md) · [🚩 Home](../README.md)
