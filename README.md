@@ -46,8 +46,8 @@
 
 - [流水线 CPU 准备实现的指令](./3_Pipelining/3-0_Instructions.md)
 - [流水线 CPU 的基础知识](./3_Pipelining/3-1_Basic.md)
-- [数据通路与数据控制](./3_Pipelining/3-2_Datapath&Control.md)
-- [Data Hazard 与避免措施](./3_Pipelining/3-3_DataHazards.md)
+- [数据通路与信号控制](./3_Pipelining/3-2_Datapath&Control.md)
+- [Hazards 与其避免措施](./3_Pipelining/3-3_Hazards.md)
 - [分支预测 Branching](./3_Pipelining/3-4_Branching.md)
 - [流水线 CPU 的设计](./3_Pipelining/3-5_Design.md)
 
