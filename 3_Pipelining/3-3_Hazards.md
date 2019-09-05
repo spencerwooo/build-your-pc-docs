@@ -157,6 +157,8 @@ and $12, $2, $5
 
 ### 解决方法 1：Stalling
 
+![](https://i.loli.net/2019/09/05/dVKhAWnNJmybiYg.png)
+
 Stalling 永远都是一种解决方法，我们完全可以让跳转指令停下来，等待结果的出现，再继续执行。但是随之而来的就是性能的下降问题。因此这种方法并非最为优雅的解决方案。
 
 ### 解决方法 2：Branch Prediction 分支预测
