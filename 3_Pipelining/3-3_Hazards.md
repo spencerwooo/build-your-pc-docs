@@ -161,6 +161,8 @@ Stalling 永远都是一种解决方法，我们完全可以让跳转指令停�
 
 ### 解决方法 2：Branch Prediction 分支预测
 
+第二种更为优雅的解决方法是「分支预测」。我们需要在硬件层面去预测「跳转指令」是否会被执行，然后按照预测取下一条指令。如果预测失败，那么我们就需要将错误路线上面的指令 Flush 掉，去重新加载正确的指令。
 
+Branch Prediction 相对比较复杂，我们在下一部分进行更为具体的介绍。
 
 [👈 Previous](./3-2_Datapath&Control.md) · [👉 Next](./3-4_BranchPrediction.md) · [🚩 Home](../README.md)
