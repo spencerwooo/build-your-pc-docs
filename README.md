@@ -48,7 +48,7 @@
 - [流水线 CPU 的基础知识](./3_Pipelining/3-1_Basic.md)
 - [数据通路与信号控制](./3_Pipelining/3-2_Datapath&Control.md)
 - [Hazards 与其避免措施](./3_Pipelining/3-3_Hazards.md)
-- [分支预测 Branching](./3_Pipelining/3-4_Branching.md)
+- [分支预测 Branch Prediction](./3_Pipelining/3-4_BranchPrediction.md)
 - [流水线 CPU 的设计](./3_Pipelining/3-5_Design.md)
 
 ## 🎁 参考资料与推荐阅读
