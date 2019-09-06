@@ -60,15 +60,13 @@
 
 ![](https://i.loli.net/2019/08/27/6UXS9iZ7QmFNVaA.png)
 
-为了能够配置 Verilog 的自动补全等功能，我们需要安装 `ctags`。使用 scoop 包管理，我们在 Windows 上面直接输入：
+为了能够配置 Verilog 的自动补全等功能，我们需要安装 `universal-ctags`。使用 scoop 包管理，我们在 Windows 上面直接输入：
 
 ```powershell
-scoop install ctags
+scoop install universal-ctags
 ```
 
-即可安装 `ctags`。之后，我们输入命令 `ctags --version` 检查 `ctags` 的安装情况即可。
-
-![](https://i.loli.net/2019/08/27/HCFygl8Bqx7uPLz.png)
+即可安装 `universal-ctags`.
 
 ### Verilog 代码自动格式化插件
 
