@@ -1,10 +1,4 @@
-[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-0_Instructions.md) · [🚩 Home](../README.md)
-
 # 单周期 CPU 的行为仿真
-
-- [单周期 CPU 的行为仿真](#%e5%8d%95%e5%91%a8%e6%9c%9f-cpu-%e7%9a%84%e8%a1%8c%e4%b8%ba%e4%bb%bf%e7%9c%9f)
-  - [添加仿真激励文件](#%e6%b7%bb%e5%8a%a0%e4%bb%bf%e7%9c%9f%e6%bf%80%e5%8a%b1%e6%96%87%e4%bb%b6)
-  - [进行仿真测试](#%e8%bf%9b%e8%a1%8c%e4%bb%bf%e7%9c%9f%e6%b5%8b%e8%af%95)
 
 Testbench 是一种验证的手段，可以看做模拟实际环境的输入激励和输出校验的一种“虚拟平台”。在这个平台上可以对设计从软件层面上进行分析和校验，类似于一个激励的产生器。
 
@@ -111,5 +105,3 @@ endmodule
 由于个人项目的单周期 CPU 并不需要进行综合、实现以及烧入开发板，因此我们只需要在仿真之后确认我们的单周期 CPU 已经实现了全部指令与功能之后即可。
 
 具体的测试项目集请参考：[spencerwooo/single-cycle-processor - README.md](https://github.com/spencerwooo/single-cycle-processor)
-
-[👈 Previous](./2-3_Verilog.md) · [👉 Next](../3_Pipelining/3-0_Instructions.md) · [🚩 Home](../README.md)

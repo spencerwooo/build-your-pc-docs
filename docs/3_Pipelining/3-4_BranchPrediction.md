@@ -1,10 +1,4 @@
-[👈 Previous](./3-3_Hazards.md) · [👉 Next](./3-5_Design.md) · [🚩 Home](../README.md)
-
 # 分支预测 Branch Prediction
-
-- [分支预测 Branch Prediction](#%e5%88%86%e6%94%af%e9%a2%84%e6%b5%8b-branch-prediction)
-  - [最简单的分支预测手段](#%e6%9c%80%e7%ae%80%e5%8d%95%e7%9a%84%e5%88%86%e6%94%af%e9%a2%84%e6%b5%8b%e6%89%8b%e6%ae%b5)
-  - [Flushing 剪枝](#flushing-%e5%89%aa%e6%9e%9d)
 
 ## 最简单的分支预测手段
 
@@ -45,5 +39,3 @@ Flushing 的过程会向流水线中引入一个 bubble，代表我们这一条�
 - Control Hazards：当 CPU 无法判断下一条指令取哪条好的时候出现。我们可以通过将判断步骤提前，来减少流水线的延迟；我们也可以通过「分支预测」来提高分支利用率，让正确的预测节省 CPU 的处理时间
 
 到这里，我们就可以开始着手设计五级流水线 CPU 了。( •̀ ω •́ )y
-
-[👈 Previous](./3-3_Hazards.md) · [👉 Next](./3-5_Design.md) · [🚩 Home](../README.md)

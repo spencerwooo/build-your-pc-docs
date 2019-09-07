@@ -1,4 +1,17 @@
-<img src="https://avatars2.githubusercontent.com/u/54571645?s=200&v=4" align="right" width="120px">
+---
+home: true
+heroImage: /hero.png
+actionText: 进入文档
+actionLink: /1_Preparations/1-1_Installation.md
+features:
+- title: 🎫
+  details: 基础的 Vivado 使用技巧
+- title: 👑
+  details: 简单的单周期 CPU 实现
+- title: 🧧
+  details: 完整的经典五级流水线 CPU 的完成
+footer: 2018 ©Spencer Woo. Released under the CC BY-SA 4.0 International License.
+---
 
 [🎃 实验要求](#-实验要求2019-版) | [📑 文档目录](#-文档目录) | [🎁 参考资料](#-参考资料与推荐阅读)
 

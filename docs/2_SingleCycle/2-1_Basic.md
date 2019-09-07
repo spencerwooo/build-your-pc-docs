@@ -1,17 +1,4 @@
-[👈 Previous](../1_Preparations/1-3_Editor.md) · [👉 Next](./2-2_Design.md) · [🚩 Home](../README.md)
-
 # 单周期 CPU 的基础知识
-
-- [单周期 CPU 的基础知识](#%e5%8d%95%e5%91%a8%e6%9c%9f-cpu-%e7%9a%84%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86)
-  - [单周期 CPU](#%e5%8d%95%e5%91%a8%e6%9c%9f-cpu)
-  - [CPU 执行指令的实际过程](#cpu-%e6%89%a7%e8%a1%8c%e6%8c%87%e4%bb%a4%e7%9a%84%e5%ae%9e%e9%99%85%e8%bf%87%e7%a8%8b)
-  - [MIPS32 指令集子集](#mips32-%e6%8c%87%e4%bb%a4%e9%9b%86%e5%ad%90%e9%9b%86)
-    - [由 ALU 负责的指令](#%e7%94%b1-alu-%e8%b4%9f%e8%b4%a3%e7%9a%84%e6%8c%87%e4%bb%a4)
-    - [访存指令](#%e8%ae%bf%e5%ad%98%e6%8c%87%e4%bb%a4)
-    - [转移指令（无条件或条件跳转）](#%e8%bd%ac%e7%a7%bb%e6%8c%87%e4%bb%a4%e6%97%a0%e6%9d%a1%e4%bb%b6%e6%88%96%e6%9d%a1%e4%bb%b6%e8%b7%b3%e8%bd%ac)
-    - [我小组三人随机抽到的指令](#%e6%88%91%e5%b0%8f%e7%bb%84%e4%b8%89%e4%ba%ba%e9%9a%8f%e6%9c%ba%e6%8a%bd%e5%88%b0%e7%9a%84%e6%8c%87%e4%bb%a4)
-  - [CPU 组成中的主要元件](#cpu-%e7%bb%84%e6%88%90%e4%b8%ad%e7%9a%84%e4%b8%bb%e8%a6%81%e5%85%83%e4%bb%b6)
-  - [多周期、流水线 CPU](#%e5%a4%9a%e5%91%a8%e6%9c%9f%e6%b5%81%e6%b0%b4%e7%ba%bf-cpu)
 
 CPU 本质上就是一个数字逻辑电路，所以我们设计 CPU 的时候实际上就是在设计电路。我们在使用 Verilog 的时候，实际上是在利用 Verilog 硬件描述语言来设计 CPU 的逻辑电路结构。因此，我们需要：
 
@@ -91,5 +78,3 @@ CPU 本质上就是一个数字逻辑电路，所以我们设计 CPU 的时候�
 ![1_FJxls8ZBHc3l3tTKxrO6Sg.png](https://i.loli.net/2019/09/03/kvNdwDGsaHOzebC.png)
 
 在流水线 CPU 中，为了将指令更有效地执行，我们会将 CPU 的取值、译码、执行的过程按照流水线的方式进行组织，从而提高 CPU 的执行、运算效率。在之后的实验中，我们会通过这种方式进行 CPU 指令的执行与实现。
-
-[👈 Previous](../1_Preparations/1-3_Editor.md) · [👉 Next](./2-2_Design.md) · [🚩 Home](../README.md)

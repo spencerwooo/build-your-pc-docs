@@ -1,21 +1,4 @@
-[👈 Previous](./3-2_Datapath&Control.md) · [👉 Next](./3-4_BranchPrediction.md) · [🚩 Home](../README.md)
-
 # Hazards 与其避免措施
-
-- [Hazards 与其避免措施](#hazards-%e4%b8%8e%e5%85%b6%e9%81%bf%e5%85%8d%e6%8e%aa%e6%96%bd)
-  - [Data Hazard —— 数据冲突](#data-hazard--%e6%95%b0%e6%8d%ae%e5%86%b2%e7%aa%81)
-    - [解决方法：数据前递 Data Forwarding](#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95%e6%95%b0%e6%8d%ae%e5%89%8d%e9%80%92-data-forwarding)
-    - [判断出现 Data Hazard 的情况](#%e5%88%a4%e6%96%ad%e5%87%ba%e7%8e%b0-data-hazard-%e7%9a%84%e6%83%85%e5%86%b5)
-      - [EX/MEM 类型的 Data Hazard](#exmem-%e7%b1%bb%e5%9e%8b%e7%9a%84-data-hazard)
-      - [MEM/WB 类型的 Data Hazard](#memwb-%e7%b1%bb%e5%9e%8b%e7%9a%84-data-hazard)
-    - [新增了 Forwarding Unit 的数据通路](#%e6%96%b0%e5%a2%9e%e4%ba%86-forwarding-unit-%e7%9a%84%e6%95%b0%e6%8d%ae%e9%80%9a%e8%b7%af)
-  - [Data Hazard —— 访存冲突](#data-hazard--%e8%ae%bf%e5%ad%98%e5%86%b2%e7%aa%81)
-    - [解决方法 1：Stalling and forwarding](#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95-1stalling-and-forwarding)
-    - [解决方法 2：`Stall <=> NOP` 转换](#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95-2stall--nop-%e8%bd%ac%e6%8d%a2)
-    - [检测访存冲突](#%e6%a3%80%e6%b5%8b%e8%ae%bf%e5%ad%98%e5%86%b2%e7%aa%81)
-  - [Control Hazard](#control-hazard)
-    - [解决方法 1：Stalling](#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95-1stalling)
-    - [解决方法 2：Branch Prediction 分支预测](#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95-2branch-prediction-%e5%88%86%e6%94%af%e9%a2%84%e6%b5%8b)
 
 在前文我们提到了：「流水线 CPU 由于会并行的执行多条指令，因此会产生数据、指令的相关性问题。」我们统称这些相关型问题为：Hazards。
 
@@ -63,13 +46,13 @@ sw $15, 100($2)
 
 ```
 // ALU 第一个操作数
-if (EX/MEM.RegWrite = 1 && 
+if (EX/MEM.RegWrite = 1 &&
     EX/MEM.RegisterRd == ID/EX.RegisterRs) {
     ForwardA = 2
 }
 
 // ALU 第二个操作数
-if (EX/MEM.RegWrite = 1 && 
+if (EX/MEM.RegWrite = 1 &&
     ID/EX.RegisterRd == ID/EX.RegisterRt) {
     ForwardB = 2
 }
@@ -166,5 +149,3 @@ Stalling 永远都是一种解决方法，我们完全可以让跳转指令停�
 第二种更为优雅的解决方法是「分支预测」。我们需要在硬件层面去预测「跳转指令」是否会被执行，然后按照预测取下一条指令。如果预测失败，那么我们就需要将错误路线上面的指令 Flush 掉，去重新加载正确的指令。
 
 Branch Prediction 相对比较复杂，我们在下一部分进行更为具体的介绍。
-
-[👈 Previous](./3-2_Datapath&Control.md) · [👉 Next](./3-4_BranchPrediction.md) · [🚩 Home](../README.md)

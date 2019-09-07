@@ -1,13 +1,4 @@
-[👈 Previous](./2-2_Design.md) · [👉 Next](./2-4_Testbench) · [🚩 Home](../README.md)
-
 # 单周期 CPU 的具体代码实现
-
-- [单周期 CPU 的具体代码实现](#%e5%8d%95%e5%91%a8%e6%9c%9f-cpu-%e7%9a%84%e5%85%b7%e4%bd%93%e4%bb%a3%e7%a0%81%e5%ae%9e%e7%8e%b0)
-  - [项目结构](#%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84)
-  - [模块调用](#%e6%a8%a1%e5%9d%97%e8%b0%83%e7%94%a8)
-  - [需要注意的要点](#%e9%9c%80%e8%a6%81%e6%b3%a8%e6%84%8f%e7%9a%84%e8%a6%81%e7%82%b9)
-    - [指令存储器的 I/O 声明](#%e6%8c%87%e4%bb%a4%e5%ad%98%e5%82%a8%e5%99%a8%e7%9a%84-io-%e5%a3%b0%e6%98%8e)
-    - [数据存储器的 I/O 声明](#%e6%95%b0%e6%8d%ae%e5%ad%98%e5%82%a8%e5%99%a8%e7%9a%84-io-%e5%a3%b0%e6%98%8e)
 
 ![](https://i.loli.net/2019/09/02/8jenxBwHP2vOk3C.png)
 
@@ -150,5 +141,3 @@ data_memory ZAN_DATA_MEM(.clk(clk),
                          .write_mem_data(reg2_data),
                          .read_mem_data(read_mem_data));
 ```
-
-[👈 Previous](./2-2_Design.md) · [👉 Next](./2-4_Testbench.md) · [🚩 Home](../README.md)

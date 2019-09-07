@@ -1,41 +1,6 @@
-[👈 Previous](../2_SingleCycle/2-4_Testbench.md) · [👉 Next](./3-1_Basic.md) · [🚩 Home](../README.md)
-
 # 流水线 CPU 准备实现的指令
 
-- [流水线 CPU 准备实现的指令](#%e6%b5%81%e6%b0%b4%e7%ba%bf-cpu-%e5%87%86%e5%a4%87%e5%ae%9e%e7%8e%b0%e7%9a%84%e6%8c%87%e4%bb%a4)
-  - [ADDI](#addi)
-  - [ADDIU](#addiu)
-  - [SLTIU](#sltiu)
-  - [ANDI](#andi)
-  - [ORI](#ori)
-  - [XORI](#xori)
-  - [LUI](#lui)
-  - [ADD](#add)
-  - [ADDU](#addu)
-  - [SUB](#sub)
-  - [SUBU](#subu)
-  - [SLT](#slt)
-  - [SLTU](#sltu)
-  - [AND](#and)
-  - [OR](#or)
-  - [NOR](#nor)
-  - [XOR](#xor)
-  - [SLL](#sll)
-  - [SRL](#srl)
-  - [SRA](#sra)
-  - [SLLV](#sllv)
-  - [SRLV](#srlv)
-  - [SRAV](#srav)
-  - [LW](#lw)
-  - [SW](#sw)
-  - [BEQ](#beq)
-  - [BNE](#bne)
-  - [J](#j)
-  - [JAL](#jal)
-  - [JR](#jr)
-  - [JALR](#jalr)
-
-共 30 条 MIPS 指令，包含了大多数基本指令操作。
+共 31 条 MIPS 指令，包含了大多数基本指令操作。
 
 ## ADDI
 
@@ -222,5 +187,3 @@
 ![](https://i.loli.net/2019/09/04/MkzjLU4Y3GmN6Ob.png)
 
 无条件跳转。跳转目标为寄存器 rs 中的值。同时将该分支对应延迟槽指令之后的指令的 PC 值保存至寄存器 rd 中。
-
-[👈 Previous](../2_SingleCycle/2-4_Testbench.md) · [👉 Next](./3-1_Basic.md) · [🚩 Home](../README.md)
