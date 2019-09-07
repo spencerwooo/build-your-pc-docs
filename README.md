@@ -1,8 +1,10 @@
 <img src="https://avatars2.githubusercontent.com/u/54571645?s=200&v=4" align="right" width="120px">
 
+# 🚡 Build Your PC
+
 [🎃 实验要求](#-实验要求2019-版) | [📑 文档目录](#-文档目录) | [🎁 参考资料](#-参考资料与推荐阅读)
 
-# 🚡 Build Your PC
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e307ad01-d0ba-4c39-bbe7-42ed13bbd3da/deploy-status)](https://app.netlify.com/sites/zanpu/deploys)
 
 **辛苦三星期，造台计算机！**
 
