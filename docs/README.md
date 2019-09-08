@@ -5,12 +5,12 @@ actionText: 进入文档
 actionLink: /1_Preparations/1-1_Installation.md
 features:
 - title: 🎫
-  details: 基础的 Vivado 使用技巧
+  details: 基础的 Vivado 使用与编码技巧
 - title: 👑
-  details: 简单的单周期 CPU 实现
+  details: 简单的 MIPS 单周期 CPU 实现
 - title: 🧧
-  details: 完整的经典五级流水线 CPU 的完成
-footer: 2018 ©Spencer Woo. Released under the CC BY-SA 4.0 International License.
+  details: 完备的经典五级 RISC 流水 CPU
+footer: 2019 ©Spencer Woo. Released under the CC BY-SA 4.0 International License.
 ---
 
 [🎃 实验要求](#-实验要求2019-版) | [📑 文档目录](#-文档目录) | [🎁 参考资料](#-参考资料与推荐阅读)
