@@ -31,27 +31,27 @@
 
 ### 准备工作
 
-- [安装与环境部署](./1_Preparations/1-1_Installation.md)
-- [利用 Vivado 创建项目](./1_Preparations/1-2_Vivado.md)
-- [使用 VS Code 作为 Vivado 的默认代码编辑器](./1_Preparations/1-3_Editor.md)
+- [安装与环境部署](https://zanpu.spencerwoo.com/1_preparations/1-1_installation.html)
+- [利用 Vivado 创建项目](https://zanpu.spencerwoo.com/1_Preparations/1-2_Vivado.html)
+- [使用 VS Code 作为 Vivado 的默认代码编辑器](https://zanpu.spencerwoo.com/1_Preparations/1-3_Editor.html)
 
 ### 个人项目 - 单周期 CPU
 
-- [单周期 CPU 的基础知识](./2_SingleCycle/2-1_Basic.md)
-- [单周期 CPU 的设计思路](./2_SingleCycle/2-2_Design.md)
-- [单周期 CPU 的具体代码实现](./2_SingleCycle/2-3_Verilog.md)
-- [单周期 CPU 的行为仿真](./2_SingleCycle/2-4_Testbench.md)
+- [单周期 CPU 的基础知识](https://zanpu.spencerwoo.com/2_SingleCycle/2-1_Basic.html)
+- [单周期 CPU 的设计思路](https://zanpu.spencerwoo.com/2_SingleCycle/2-2_Design.html)
+- [单周期 CPU 的具体代码实现](https://zanpu.spencerwoo.com/2_SingleCycle/2-3_Verilog.html)
+- [单周期 CPU 的行为仿真](https://zanpu.spencerwoo.com/2_SingleCycle/2-4_Testbench.html)
 
 ### 团队项目 - 多周期 CPU / 流水线 CPU [WIP]
 
 > 我们团队选择实现流水线 CPU，因此接下来的参考文档只介绍流水线 CPU 的设计流程。
 
-- [流水线 CPU 准备实现的指令](./3_Pipelining/3-0_Instructions.md)
-- [流水线 CPU 的基础知识](./3_Pipelining/3-1_Basic.md)
-- [数据通路与信号控制](./3_Pipelining/3-2_Datapath&Control.md)
-- [Hazards 与其避免措施](./3_Pipelining/3-3_Hazards.md)
-- [分支预测 Branch Prediction](./3_Pipelining/3-4_BranchPrediction.md)
-- [流水线 CPU 的设计](./3_Pipelining/3-5_Design.md)
+- [流水线 CPU 准备实现的指令](https://zanpu.spencerwoo.com/3_Pipelining/3-0_Instructions.html)
+- [流水线 CPU 的基础知识](https://zanpu.spencerwoo.com/3_Pipelining/3-1_Basic.html)
+- [数据通路与信号控制](https://zanpu.spencerwoo.com/3_Pipelining/3-2_Datapath&Control.html)
+- [Hazards 与其避免措施](https://zanpu.spencerwoo.com/3_Pipelining/3-3_Hazards.html)
+- [分支预测 Branch Prediction](https://zanpu.spencerwoo.com/3_Pipelining/3-4_BranchPrediction.html)
+- [流水线 CPU 的设计](https://zanpu.spencerwoo.com/3_Pipelining/3-5_Design.html)
 
 ## 🎁 参考资料与推荐阅读
 
