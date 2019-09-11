@@ -86,6 +86,19 @@ module.exports = {
       },{
         text: '流水线 CPU 的设计',
         link: '/3_Pipelining/3-5_Design'
+      },{
+        text: '利用 IP 核对 CPU 进行封装',
+        link: '/3_Pipelining/3-6_IP'
+      }]
+    },{
+      text: '外部设备',
+      items: [{
+        text: '外部设备的基础配置',
+        link: '/4_Peripherals/4-0_Basic'
+      },
+      {
+        text: '以 VGA 为例子对外部设备进行信号输出',
+        link: '/4_Peripherals/4-1_VGA'
       }]
     },
     {
