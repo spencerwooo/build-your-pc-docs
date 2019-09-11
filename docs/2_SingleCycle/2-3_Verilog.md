@@ -2,7 +2,7 @@
 
 ![](https://i.loli.net/2019/09/02/8jenxBwHP2vOk3C.png)
 
-代码将在课程结束之后开源，仓库地址（目前不能访问）：[spencerwooo/single-cycle-processor](https://github.com/spencerwooo/single-cycle-processor)
+单周期 CPU 的源代码开源于：[spencerwooo/single-cycle-processor](https://github.com/spencerwooo/single-cycle-processor)
 
 ## 项目结构
 
