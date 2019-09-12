@@ -48,6 +48,8 @@ footer: 2019 ©Spencer Woo. Released under the CC BY-SA 4.0 International Licens
 
 ### 个人项目 - 单周期 CPU
 
+> 单周期 CPU 是个人项目中的必要起步项目，在单周期 CPU 的构建过程中我们才能理解流水线 CPU 的具体工作原理。
+
 - [单周期 CPU 的基础知识](./2_SingleCycle/2-1_Basic.md)
 - [单周期 CPU 的设计思路](./2_SingleCycle/2-2_Design.md)
 - [单周期 CPU 的具体代码实现](./2_SingleCycle/2-3_Verilog.md)
@@ -63,6 +65,14 @@ footer: 2019 ©Spencer Woo. Released under the CC BY-SA 4.0 International Licens
 - [Hazards 与其避免措施](./3_Pipelining/3-3_Hazards.md)
 - [分支预测 Branch Prediction](./3_Pipelining/3-4_BranchPrediction.md)
 - [流水线 CPU 的设计](./3_Pipelining/3-5_Design.md)
+- [利用 IP 核对 CPU 进行封装](./3_Pipelining/3-6_IP.md)
+
+### 团队项目 - 外部设备 Peripherals
+
+> 本次小学期实验最后需要与精工开发板进行整合，需要通过 VGA 等接口调用来让 CPU 能够实现与外设接口的整合，实现一个完整的计算机系统。
+
+- [外部设备的基础配置](./4_Peripherals/4-0_Basic.md)
+- [以 VGA 为例子对外部设备进行信号输出](./4_Peripherals/4-1_VGA.md)
 
 ## 🎁 参考资料与推荐阅读
 

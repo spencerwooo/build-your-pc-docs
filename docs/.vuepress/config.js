@@ -125,7 +125,12 @@ module.exports = {
         '3-3_Hazards',
         '3-4_BranchPrediction',
         '3-5_Design',
+        '3-6_IP'
       ],
+      '/4_Peripherals/': [
+        '4-0_Basic',
+        '4-1_VGA'
+      ]
     },
     lastUpdated: 'Last Updated'
   }
