@@ -27,30 +27,30 @@ CPU 对外部设备的控制是通过写入（`SW`）和读取（`LW`）外设�
 
 ```verilog
 vga u_vga(
-        .clk   (clk       ),
-        .rstn  (~rst      ),
-        .wen   (vga_wen   ),
-        .wdata (vga_wdata ),
-        .addr  (vga_addr  ),
-        .rdata (vga_rdata ),
-        .hs    (hs        ),
-        .vs    (vs        ),
-        .red   (red       ),
-        .green (green     ),
-        .blue  (blue      )
-    );
+  .clk   (clk       ),
+  .rstn  (~rst      ),
+  .wen   (vga_wen   ),
+  .wdata (vga_wdata ),
+  .addr  (vga_addr  ),
+  .rdata (vga_rdata ),
+  .hs    (hs        ),
+  .vs    (vs        ),
+  .red   (red       ),
+  .green (green     ),
+  .blue  (blue      )
+);
 ```
 
 连接 CPU 的代码大致如下：
 
 ```verilog
 zanpu_top u_zanpu_top(
-	.clk      (clk      ),
-    .rst      (rst      ),
-    .io_wen   (io_wen   ),
-    .io_addr  (io_addr  ),
-    .io_wdata (io_wdata ),
-    .io_rdata (io_rdata )
+  .clk      (clk      ),
+  .rst      (rst      ),
+  .io_wen   (io_wen   ),
+  .io_addr  (io_addr  ),
+  .io_wdata (io_wdata ),
+  .io_rdata (io_rdata )
 );
 ```
 
@@ -86,14 +86,14 @@ output wire[3:0] blue
 
 - 写入 CPU 数据存储器地址或外设（VGA）数据存储器地址（[`zanpu_top.v`](https://github.com/zan-pu/pipelined-zanpu/blob/soc/pipelined-zanpu.srcs/sources_1/new/zanpu_top.v)）
 
-```verilog
-wire access_io = (alu_result_out[31:16] == 16'hffff) ? 1'b1 : 1'b0;
-wire[31:0] dm_rdata;
-wire dm_wen;
-assign io_wen = (access_io && en_mem_write_mem);
-assign dm_wen = (access_io == 1'b0 && en_mem_write_mem);
+  ```verilog
+  wire access_io = (alu_result_out[31:16] == 16'hffff) ? 1'b1 : 1'b0;
+  wire[31:0] dm_rdata;
+  wire dm_wen;
+  assign io_wen = (access_io && en_mem_write_mem);
+  assign dm_wen = (access_io == 1'b0 && en_mem_write_mem);
 
-assign read_mem_data = (access_io == 1'b1) ? io_rdata : dm_rdata;
-```
+  assign read_mem_data = (access_io == 1'b1) ? io_rdata : dm_rdata;
+  ```
 
 ## 更新 Constraints
