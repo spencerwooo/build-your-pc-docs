@@ -6,6 +6,16 @@
 
 ![pipeline new-pipeline.png](https://i.loli.net/2019/09/11/12y9m6sYFhKB74A.png)
 
+其中：
+
+- 流水寄存器包括：
+  - IF/ID 寄存器
+  - ID/EX 寄存器
+  - EX/MEM 寄存器
+  - MEM/WB 寄存器
+- Forwarding Unit 前递单元位于 EX 执行阶段，根据写信号 `MEM.RegWrite`、`WB.RegWrite` 以及写寄存器地址、rs 寄存器地址和 rt 寄存器地址判断是否需要进行数据前递，进行 Data Hazard 的解决
+- Stall Unit 优化暂停单元控制各个流水寄存器的流通，保证 LW、SW 等读写寄存器指令能够完整执行结束再执行后续指令，以保证访存冲突的解决
+
 ## 部分控制信号对应的真值表
 
 |       | RegDst | RegWrite | ALUSrc | ALUOp | MemWrite | RegSrc  | ExtOp    | NPCOp | Zero |
@@ -120,7 +130,7 @@
 `define BRANCH_FALSE    1'b0       // Branch to false
 ```
 
-## 前递单元 Forwarding Unit 和其他数据冒险控制信号的定义
+## 前递单元 Forwarding Unit 和其他数据冲突的控制信号定义
 
 ```verilog
 /* --- Hazard Control --- */
