@@ -61,7 +61,7 @@ endmodule
 
   其中，上面操作是初始化为以下两条指令：
 
-  ```mips
+  ```nasm
   addiu $1, $0, 5
   addiu $2, $0, 5
   ```
