@@ -95,3 +95,5 @@ output wire[3:0] blue
 
   assign read_mem_data = (access_io == 1'b1) ? io_rdata : dm_rdata;
   ```
+
+接下来，我们以 VGA 为例子进行外设接口的实现。
