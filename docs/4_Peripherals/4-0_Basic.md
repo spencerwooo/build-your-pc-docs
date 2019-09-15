@@ -95,5 +95,3 @@ output wire[3:0] blue
 
   assign read_mem_data = (access_io == 1'b1) ? io_rdata : dm_rdata;
   ```
-
-## 更新 Constraints
