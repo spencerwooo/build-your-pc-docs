@@ -44,7 +44,7 @@
 - [单周期 CPU 的具体代码实现](https://zanpu.spencerwoo.com/2_SingleCycle/2-3_Verilog.html)
 - [单周期 CPU 的行为仿真](https://zanpu.spencerwoo.com/2_SingleCycle/2-4_Testbench.html)
 
-### 团队项目 - 多周期 CPU / 流水线 CPU [WIP]
+### 团队项目 - 多周期 CPU / 流水线 CPU
 
 > 我们团队选择实现流水线 CPU，因此接下来的参考文档只介绍流水线 CPU 的设计流程。
 
